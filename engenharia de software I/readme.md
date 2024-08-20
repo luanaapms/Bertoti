@@ -37,9 +37,9 @@ Software engineering isn’t programming.
 
 ## Análise de trade-offs: Arquitetura Netflix
 
-<img src="/assets/img/" height="550">
+<img src="/img/netflix.jpg" height="500">
 
-## Escalabilidade x Complexidade
+### Escalabilidade x Complexidade
 
 
 
