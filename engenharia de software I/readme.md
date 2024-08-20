@@ -20,23 +20,26 @@ Software engineering isn’t programming.
 # ATIVIDADE 2
 
 ## Comentando trade-offs
-JAVA X PYTHON
--Desempenho: Java oferece melhor desempenho em termos de velocidade de execução devido à sua natureza compilada. Python é interpretado e não compilado, o que geralmente resulta em uma execução mais lenta. Se o desempenho for crítico, Java pode ser a escolha preferida. 
--Escalabilidade: Em Java, sua escalabilidade pode ser mais eficiente para grandes sistemas, pois é possivel escalá-la verticalmente. Python pode ser mais pesado, podendo acabar afetando o sistema. 
--Segurança: Java possui um conjunto de recursos de segurança integrados, como controles de acesso a objetos e mecanismos de criptografia. Embora Python também ofereça bibliotecas para segurança, Java tem uma vantagem, especialmente em ambientes corporativos.
+*JAVA X PYTHON* <br>
+-Desempenho: Java oferece melhor desempenho em termos de velocidade de execução devido à sua natureza compilada. Python é interpretado e não compilado, o que geralmente resulta em uma execução mais lenta. Se o desempenho for crítico, Java pode ser a escolha preferida. <br>
+-Escalabilidade: Em Java, sua escalabilidade pode ser mais eficiente para grandes sistemas, pois é possivel escalá-la verticalmente. Python pode ser mais pesado, podendo acabar afetando o sistema. <br>
+-Segurança: Java possui um conjunto de recursos de segurança integrados, como controles de acesso a objetos e mecanismos de criptografia. Embora Python também ofereça bibliotecas para segurança, Java tem uma vantagem, especialmente em ambientes corporativos. <br>
 
-WINDOWS X LINUX
--Desempenho: Windows geralmente é mais exigente em termos de recursos do sistema, pode ser mais lento em hardware mais antigo. Ele é otimizado para rodar bem em dispositivos modernos, mas pode não ser a escolha ideal para sistemas com recursos limitados. Linux é conhecido por sua eficiência em termos de recursos. 
--Segurança: O Windows tem sido mais alvo de malware, vírus e outras ameaças de segurança devido à sua popularidade. Considerado mais seguro por design, Linux tem uma arquitetura de permissões mais robusta e é menos visado por atacantes, em parte devido à sua menor base de usuários. Windows pode ser a melhor escolha se você precisar de suporte de software amplo, integração com outros produtos Microsoft, ou uma interface mais amigável. Linux, por outro lado, oferece maior controle, personalização e segurança.
+*WINDOWS X LINUX* <br>
+-Desempenho: Windows geralmente é mais exigente em termos de recursos do sistema, pode ser mais lento em hardware mais antigo. Ele é otimizado para rodar bem em dispositivos modernos, mas pode não ser a escolha ideal para sistemas com recursos limitados. Linux é conhecido por sua eficiência em termos de recursos. <br>
+-Segurança: O Windows tem sido mais alvo de malware, vírus e outras ameaças de segurança devido à sua popularidade. Considerado mais seguro por design, Linux tem uma arquitetura de permissões mais robusta e é menos visado por atacantes, em parte devido à sua menor base de usuários. Windows pode ser a melhor escolha se você precisar de suporte de software amplo, integração com outros produtos Microsoft, ou uma interface mais amigável. Linux, por outro lado, oferece maior controle, personalização e segurança. <br>
 
-ANDROID X IOS
--Segurança: O Android em sua natureza aberta e a variedade de lojas de aplicativos de terceiros aumentam o risco de malware. iOS é geralmente considerado mais seguro devido ao controle rigoroso da Apple sobre a App Store e as permissões de aplicativos. 
--Custo: Android está disponível em uma ampla gama de preços, isso o torna acessível a uma maior variedade de consumidores. Os dispositivos Apple são geralmente mais caros, especialmente os modelos mais recentes e de ponta. Se a flexibilidade e variedade de dispositivos são importantes, o Android pode ser a melhor opção. Por outro lado, se a segurança, a consistência da experiência do usuário, o iOS pode ser a escolha ideal. 
+*ANDROID X IOS* <br>
+-Segurança: O Android em sua natureza aberta e a variedade de lojas de aplicativos de terceiros aumentam o risco de malware. iOS é geralmente considerado mais seguro devido ao controle rigoroso da Apple sobre a App Store e as permissões de aplicativos. <br>
+-Custo: Android está disponível em uma ampla gama de preços, isso o torna acessível a uma maior variedade de consumidores. Os dispositivos Apple são geralmente mais caros, especialmente os modelos mais recentes e de ponta. Se a flexibilidade e variedade de dispositivos são importantes, o Android pode ser a melhor opção. Por outro lado, se a segurança, a consistência da experiência do usuário, o iOS pode ser a escolha ideal. <br>
 
 # ATIVIDADE 3
 
 ## Análise de trade-offs: Arquitetura Netflix
 
+<img src="/assets/img/" height="550">
+
+## Escalabilidade x Complexidade
 
 
 
