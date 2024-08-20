@@ -40,6 +40,16 @@ Software engineering isn’t programming.
 <img src="/img/netflix.jpg" height="500">
 
 ### Escalabilidade x Complexidade
+A arquitetura permite que cada componente do sistema seja escalado de forma independente. Isso é crucial para a Netflix, que precisa suportar milhões de usuários simultâneos em todo o mundo. No entanto, essa escalabilidade vem com um aumento significativo na complexidade, pois gerenciar milhares de microserviços distribuídos requer uma infraestrutura robusta para orquestração, monitoramento, e comunicação.
+
+### Performance x Consistência
+A arquitetura da Netflix é otimizada para alta performance, utilizando técnicas para reduzir a latência e garantir uma experiência de streaming suave para os usuários. Porém, manter a consistência entre serviços em um ambiente global, é complicado. Assim, a Netflix adota o princípio de consistência eventual.
+
+### Custo x Benefício de Negócio
+Operar uma arquitetura distribuída em escala global envolve custos significativos. Isso inclui o custo de infraestrutura em nuvem (a Netflix utiliza AWS), ferramentas de monitoramento, segurança, e a manutenção de uma equipe qualificada para gerenciar o sistema. Apesar disso, os benefícios são enormes, permitindo uma experiência de usuário excepcional, com alta disponibilidade, rápida recuperação de falhas, e capacidade de suportar mudanças no mercado. 
+
+### Inovação x Monitoramento
+A arquitetura de microserviços permite uma rápida inovação, pois novos serviços e recursos podem ser desenvolvidos e implantados rapidamente sem impactar o sistema como um todo. Isso é crucial em um mercado competitivo como o de streaming. A Netflix investe pesadamente em ferramentas de teste de integração e monitoramento em tempo real.
 
 
 
