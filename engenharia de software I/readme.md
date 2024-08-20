@@ -15,3 +15,5 @@ If you accept this distinction, it also becomes clear that we might need to deli
 The addition of time adds an important new dimension to programming. 
 Cubes aren’t squares, distance isn’t velocity.
 Software engineering isn’t programming.
+
+- A engenharia de software não é sobre apenas criar um software, mas também, seu desenvolvimento, modificação e a manutenção do mesmo. Abrange muito mais que só a programação, é sempre buscar inovar em tecnologias e se adaptar a novas demandas, evidenciando a qualidade e eficiência.
