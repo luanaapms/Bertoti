@@ -5,8 +5,7 @@ We see three critical differences between programming and software engineering: 
 In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. 
 Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
-- O trecho ressalta uma distinção importante entre programação e engenharia de software, destacando as diferenças de tempo, escala e os trade-offs envolvidos. 
-
+- O trecho ressalta uma distinção importante entre programação e engenharia de software, destacando as diferenças de tempo, escala e os trade-offs envolvidos. Um engenheiro de software deve desenvolver projetos que consigam ter bons desempenhos e alta capacidade de escabilidade, atendendo as demandas e suportando melhorias, sendo elas complexas ou não. 
 
 ## Segundo trecho
 Within Google, we sometimes say, “Software engineering is programming integrated over time.”
@@ -17,3 +16,9 @@ Cubes aren’t squares, distance isn’t velocity.
 Software engineering isn’t programming.
 
 - A engenharia de software não é sobre apenas criar um software, mas também, seu desenvolvimento, modificação e a manutenção do mesmo. Abrange muito mais que só a programação, é sempre buscar inovar em tecnologias e se adaptar a novas demandas, evidenciando a qualidade e eficiência.
+
+# ATIVIDADE 2
+
+## Comentando trade-offs
+
+
