@@ -51,6 +51,8 @@ Operar uma arquitetura distribuída em escala global envolve custos significativ
 ### Inovação x Monitoramento
 A arquitetura de microserviços permite uma rápida inovação, pois novos serviços e recursos podem ser desenvolvidos e implantados rapidamente sem impactar o sistema como um todo. Isso é crucial em um mercado competitivo como o de streaming. A Netflix investe pesadamente em ferramentas de teste de integração e monitoramento em tempo real.
 
+# ATIVIDADE 4
 
+## Diagrama de Classes UML
 
 
