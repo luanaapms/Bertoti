@@ -55,4 +55,111 @@ A arquitetura de microserviços permite uma rápida inovação, pois novos servi
 
 ## Diagrama de Classes UML
 
+<img src="/img/classeUML.png" height="250">
+
+### Código JAVA
+
+#### Biblioteca
+
+     import java.util.ArrayList;
+     import java.util.List;
+
+    public class Biblioteca {
+    private List<Livro> livros;
+
+    public Biblioteca() {
+        livros = new ArrayList<>();
+    }
+
+    public List<Livro> getLivros() {
+        return livros;
+    }
+
+    public void setLivros(List<Livro> livros) {
+        this.livros = livros;
+    }
+
+    public void adicionarLivro(Livro livro) {
+        livros.add(livro);
+    }
+
+    public void removerLivro(Livro livro) {
+        livros.remove(livro);
+    }
+    }
+
+#### Livro
+
+    public class Livro {
+    private String titulo;
+    private String autor;
+    private int anoPublicacao;
+    private boolean disponibilidade;
+
+    public Livro(String titulo, String autor, int anoPublicacao, boolean disponibilidade) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.anoPublicacao = anoPublicacao;
+        this.disponibilidade = true;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public int getAnoPublicacao() {
+        return anoPublicacao;
+    }
+
+    public void setAnoPublicacao(int anoPublicacao) {
+        this.anoPublicacao = anoPublicacao;
+    }
+
+    public boolean isDisponibilidade() {
+        return disponibilidade;
+    }
+
+    public void setDisponibilidade(boolean disponibilidade) {
+        this.disponibilidade = disponibilidade;
+    }
+
+    public boolean emprestar(){
+        if (this.disponibilidade) {
+            this.disponibilidade = false;
+            System.out.println("Livro emprestado com sucesso.");
+            return true;
+        } else {
+            System.out.println("O livro já está emprestado.");
+            return false;
+        }
+    }
+
+    public void devolver() {
+        this.disponibilidade = true;
+        System.out.println("Livro devolvido com sucesso.");
+    }
+
+    public void exibirInfo() {
+        System.out.println("Título: " + this.titulo);
+        System.out.println("Autor: " + this.autor);
+        System.out.println("Ano de Publicação:" + this.anoPublicacao);
+        System.out.println("Disponível: " + (this.disponibilidade? "Sim" : "Não"));
+    }
+    }
+
+
+
+
 
