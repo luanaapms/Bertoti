@@ -159,7 +159,34 @@ A arquitetura de microserviços permite uma rápida inovação, pois novos servi
     }
     }
 
+#### Main
 
+    public class Main {
+    public static void main(String[] args) {
+        Biblioteca biblioteca = new Biblioteca();
+
+        Livro livro1 = new Livro("O Senhor dos Anéis", "J.R.R. Tolkien", 1998, true);
+        biblioteca.adicionarLivro(livro1);
+        
+        // Tentando emprestar o livro
+        livro1.emprestar();
+        livro1.exibirInfo();
+
+        // Tentando emprestar novamente (já emprestado)
+        livro1.emprestar();
+
+        // Devolvendo o livro
+        livro1.devolver();
+        livro1.exibirInfo();
+
+        Livro livro2 = new Livro("O Hobbit", "J.R.R. Tolkien", 1937, true);
+        biblioteca.adicionarLivro(livro2);
+
+        // Removendo um livro da biblioteca
+        biblioteca.removerLivro(livro2);
+
+    }
+    }
 
 
 
