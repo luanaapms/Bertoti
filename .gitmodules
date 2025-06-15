@@ -1,0 +1,3 @@
+[submodule "ihc/projeto/Agente/LexiBot-v2"]
+	path = ihc/projeto/Agente/LexiBot-v2
+	url = https://github.com/luanaapms/LexiBot-v2.git
