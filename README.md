@@ -6,3 +6,6 @@ Repositório direcionado as atividades das disciplinas lecionadas pelo professor
 
 ## 3º Semestre:
 - Interação Humano Computador
+
+## 4º Semestre:
+- Engenharia de Software III

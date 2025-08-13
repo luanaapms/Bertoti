@@ -1,4 +1,6 @@
-# ATIVIDADE 1 
+# ENGENHARIA DE SOFTWARE I
+
+## ATIVIDADE 1 
 
 ## Primeiro trecho
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. 
@@ -17,7 +19,7 @@ Software engineering isn’t programming.
 
 - A engenharia de software não é sobre apenas criar um software, mas também, seu desenvolvimento, modificação e a manutenção do mesmo. Abrange muito mais que só a programação, é sempre buscar inovar em tecnologias e se adaptar a novas demandas, evidenciando a qualidade e eficiência.
 
-# ATIVIDADE 2
+## ATIVIDADE 2
 
 ## Comentando trade-offs
 *JAVA X PYTHON* <br>
@@ -33,7 +35,7 @@ Software engineering isn’t programming.
 -Segurança: O Android em sua natureza aberta e a variedade de lojas de aplicativos de terceiros aumentam o risco de malware. iOS é geralmente considerado mais seguro devido ao controle rigoroso da Apple sobre a App Store e as permissões de aplicativos. <br>
 -Custo: Android está disponível em uma ampla gama de preços, isso o torna acessível a uma maior variedade de consumidores. Os dispositivos Apple são geralmente mais caros, especialmente os modelos mais recentes e de ponta. Se a flexibilidade e variedade de dispositivos são importantes, o Android pode ser a melhor opção. Por outro lado, se a segurança, a consistência da experiência do usuário, o iOS pode ser a escolha ideal. <br>
 
-# ATIVIDADE 3
+## ATIVIDADE 3
 
 ## Análise de trade-offs: Arquitetura Netflix
 
@@ -51,7 +53,7 @@ Operar uma arquitetura distribuída em escala global envolve custos significativ
 ### Inovação x Monitoramento
 A arquitetura de microserviços permite uma rápida inovação, pois novos serviços e recursos podem ser desenvolvidos e implantados rapidamente sem impactar o sistema como um todo. Isso é crucial em um mercado competitivo como o de streaming. A Netflix investe pesadamente em ferramentas de teste de integração e monitoramento em tempo real.
 
-# ATIVIDADE 4
+## ATIVIDADE 4
 
 ## Diagrama de Classes UML
 

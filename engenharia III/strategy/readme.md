@@ -1,0 +1,5 @@
+## O que é padrão de projetos STRATEGY?
+O Strategy é um padrão de projeto comportamental que permite definir uma família de algoritmos, encapsulá-los em classes separadas e torná-los intercambiáveis. Ele sugere extrair as diferentes formas de executar uma tarefa para classes chamadas estratégias, enquanto a classe original chamada contexto, mantém uma referência para uma dessas estratégias e delega a ela o trabalho. Dessa forma, o contexto se mantém independente das estratégias concretas, permitindo adicionar ou alterar algoritmos sem modificar o código do contexto ou das outras estratégias.
+
+## Qual é o anti-padrão do STRATEGY?
+O anti-padrão do Strategy surge quando o desenvolvedor utiliza herança para variar comportamentos, em vez de composição. Nesse caso, cria-se uma hierarquia de subclasses, cada uma sobrescrevendo métodos para alterar a lógica, o que aumenta o acoplamento, dificulta a reutilização e torna o código menos flexível. Esse modelo contraria a proposta do Strategy, que é justamente permitir a troca de comportamentos em tempo de execução e facilitar a manutenção através da composição de objetos, e não de herança rígida.
